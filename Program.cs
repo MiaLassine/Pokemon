@@ -16,9 +16,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("----------------------------------------------------------------------");
         string[] Pokemon = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex", "Tokorico"};
 
-        Console.WriteLine("----------------------------------------------------------------------");
         for (int i = 0; i < Pokemon.Length; i++)
         {
             Console.WriteLine((i + 1) + ". " + Pokemon[i]);
