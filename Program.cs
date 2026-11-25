@@ -16,11 +16,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] Pokemon = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex"};
+        string[] Pokemon = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex", "Tokorico"};
 
-        for(int i = 0; i < 6; i++)
+        Console.WriteLine("----------------------------------------------------------------------");
+        for (int i = 0; i < Pokemon.Length; i++)
         {
-            Console.WriteLine("[" + i + "] " + Pokemon[i]);
+            Console.WriteLine((i + 1) + ". " + Pokemon[i]);
         }
+        Console.WriteLine("----------------------------------------------------------------------\n\n");
+        Console.WriteLine("----------------------------------------------------------------------");
+        Console.WriteLine("Nombre total de Pokémons : " + Pokemon.Length.ToString());
+        Console.WriteLine("----------------------------------------------------------------------");
     }
 }
