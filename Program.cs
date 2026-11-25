@@ -16,10 +16,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[6] Pokemon = ("Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex");
-        for(int i = 0, i < 6; i++)
+        string[] Pokemon = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex"};
+
+        for(int i = 0; i < 6; i++)
         {
-            Console.WriteLine(Pokemon);
+            Console.WriteLine("[" + i + "] " + Pokemon[i]);
         }
     }
 }
